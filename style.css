@@ -4,6 +4,10 @@ body {
     background-color: #fcf5ef;
 }
 
+div {
+    margin: 0;
+}
+
 h2 {
     color: #6db5ca;
 }
@@ -43,14 +47,30 @@ button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
+.bg-statis {
+    height: 400px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: -9999;
+}
+
+.bg-statis img {
+    height: 100%;
+    width: auto;
+}
+
 .hero-image {
     height: 400px;
-    background-image: linear-gradient(rgba(30, 102, 124, 0.8), rgba(109, 181, 202, 0.8)), url("img/bgHeader.jpg");
+    background-image: linear-gradient(rgba(30, 102, 124, 0.8), rgba(109, 181, 202, 0.8));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
+
 
 .hero-text {
     text-align: center;
@@ -63,22 +83,13 @@ button:hover {
     color: #fcf5ef;
 }
 
-.header {
-    font-family: 'Quicksand', sans-serif;
-    margin: auto;
-    padding: 100px 100px 85px 100px;
-    text-align: center;
-    background-color: #6db5ca;
-    text-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
-    color: #fcf5ef;
-}
-
 .content {
+    padding-top: 30px;
     margin: auto;
-    margin-top: 60px;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     color: #252525;
+    background-color: #fcf5ef;
     font-size: 17px;
 }
 
