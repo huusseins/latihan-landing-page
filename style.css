@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcf5ef;
+}
+
+h2 {
+    color: #6db5ca;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    font-weight: medium;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+button {
+    background-color: #ff7235;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: #fcf5ef;
+    padding: 15px 20px;
+    font-size: 15px;
+    border: none;
+    font-family: inherit;
+    font-weight: semi-bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #fcf5ef;
+    color: #ff7235;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    padding: 100px 100px 85px 100px;
+    text-align: center;
+    background-color: #6db5ca;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+    color: #fcf5ef;
+}
+
+.content {
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #252525;
+    font-size: 17px;
+}
+
+.aboutMe p {
+    padding: 0 25% 0 25%;
+}
+
+.content img {
+    margin: 25px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.line {
+    margin: auto;
+    margin-bottom: 10px;
+    height: 7px;
+    width: 40px;
+    background-color: #ff7235;
+    border-radius: 3.5px;
+}
+
+.contact {
+    margin: 40px auto auto auto;
+    padding: 30px;
+    background-color: #ff7235;
+    color: #fcf5ef;
+}
+
+.contact img {
+    filter: invert(82%) sepia(7%) saturate(728%) hue-rotate(145deg) brightness(103%) contrast(89%);
+}
+
+.contactList {
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.contactList li {
+    display: inline-block;
+}
+
+.contactInfo {
+    width: 180px;
+    margin: none;
+}
+
+.contactInfo p {
+    width: 180px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.contactInfo img {
+    margin: 25px;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btnIg {
+    transition: .3s;
+}
+
+.btnIg:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.portfolio {
+    margin: auto;
+    padding: 30px;
+    background-color: #6db5ca;
+    color: #fcf5ef;
+}
+
+.portfolio li {
+    display: inline-block;
+}
+
+.contentPorto img {
+    margin: 25px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+}
